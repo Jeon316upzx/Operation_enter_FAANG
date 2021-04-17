@@ -61,7 +61,7 @@
 
 def square_even_indexed_positions(nums):
     arr_len = len(nums)
-    if arr_len < = 0:
+    if arr_len <= 0:
         return "Array is empty"
 
     for i in range(arr_len):
@@ -69,3 +69,14 @@ def square_even_indexed_positions(nums):
             nums[i] *= nums[i]
 
     return nums
+
+
+print(square_even_indexed_positions([2, 3, 4, 5, 5, 3, 3, 2]))
+
+
+def invert(nums):
+    for i in range(1, len(nums) + 1):
+        print(nums[-i])
+
+
+print(invert([1, 3, 4, 5, 6, 7]))
