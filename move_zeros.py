@@ -24,6 +24,14 @@ def move_zeros_back(nums):
 print(move_zeros_back([1, 0, 2, 3, 0, 0, 2, 3, 4, 5]))
 
 
+"""
+
+Given an integer array nums, move all 0's to the front of it while
+maintaining the relative order of the non-zero elements.
+
+"""
+
+
 def move_zeros_front(nums):
     if len(nums) <= 1:
         return nums
